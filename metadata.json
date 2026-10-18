@@ -1,0 +1,6 @@
+{
+  "name": "Brothers International Travel & Tours",
+  "description": "Official digital platform of Brothers International Travel & Tours (Since 2024). Specializing in VIP and economy Umrah packages, international flight bookings, visa assistance, and customized worldwide holiday tours.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 380 380" width="380" height="380">
+  <defs>
+    <linearGradient id="badgeBurgundy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5A0D19" />
+      <stop offset="50%" stop-color="#440610" />
+      <stop offset="100%" stop-color="#2D030A" />
+    </linearGradient>
+    <linearGradient id="badgeGoldBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD700" />
+      <stop offset="30%" stop-color="#B8860B" />
+      <stop offset="70%" stop-color="#FFDF00" />
+      <stop offset="100%" stop-color="#996515" />
+    </linearGradient>
+    <filter id="badgeShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <!-- Deep burgundy shield container -->
+  <rect x="10" y="10" width="360" height="360" rx="36" fill="url(#badgeBurgundy)" filter="url(#badgeShadow)" />
+  <rect x="16" y="16" width="348" height="348" rx="30" fill="none" stroke="url(#badgeGoldBorder)" stroke-width="2" />
+  <rect x="22" y="22" width="336" height="336" rx="24" fill="none" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1" />
+
+  <!-- Stylized "B" Monogram Shield -->
+  <g transform="translate(190, 115)">
+    <!-- Shield backing -->
+    <path d="M -54 -60 L 54 -60 C 62 -60 68 -54 68 -46 L 68 8 C 68 46 0 74 0 74 C 0 74 -68 46 -68 8 L -68 -46 C -68 -54 -62 -60 -54 -60 Z"
+          fill="#35040B" stroke="#D4AF37" stroke-width="2" stroke-opacity="0.6" />
+    
+    <!-- Stylized "B" Monogram -->
+    <path d="M -24 -42 L -24 38" stroke="#FFFFFF" stroke-width="9" stroke-linecap="round" />
+    <path d="M -24 -36 H 12 C 26 -36 34 -28 34 -18 C 34 -9 26 -2 14 0 C 28 2 36 10 36 21 C 36 32 26 40 10 40 H -24" 
+          fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" />
+    <path d="M -24 0 L 14 0" stroke="#FFC709" stroke-width="5" stroke-linecap="round" />
+    <circle cx="10" cy="-18" r="3" fill="#FFC709" />
+    <circle cx="12" cy="21" r="3" fill="#FFC709" />
+  </g>
+
+  <!-- BROTHERS Typography in Bright Yellow -->
+  <text x="190" y="240" 
+        text-anchor="middle"
+        font-family="'Plus Jakarta Sans', 'Montserrat', -apple-system, sans-serif" 
+        font-weight="900" 
+        font-size="36" 
+        letter-spacing="5" 
+        fill="#FFC709">
+    BROTHERS
+  </text>
+
+  <!-- INTERNATIONAL TRAVEL & TOURS in Crisp White -->
+  <text x="190" y="272" 
+        text-anchor="middle"
+        font-family="'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif" 
+        font-weight="700" 
+        font-size="13" 
+        letter-spacing="3" 
+        fill="#FFFFFF">
+    INTERNATIONAL TRAVEL &amp; TOURS
+  </text>
+
+  <!-- Decorative Golden Wing Accents & Tagline -->
+  <g transform="translate(190, 312)">
+    <line x1="-120" y1="0" x2="-54" y2="0" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.6" />
+    <circle cx="-50" cy="0" r="2.5" fill="#FFC709" />
+    
+    <text x="0" y="4" 
+          text-anchor="middle"
+          font-family="'Plus Jakarta Sans', -apple-system, sans-serif" 
+          font-weight="700" 
+          font-size="11.5" 
+          letter-spacing="3.5" 
+          fill="#E5C07B">
+      SINCE 2024
+    </text>
+    
+    <circle cx="50" cy="0" r="2.5" fill="#FFC709" />
+    <line x1="54" y1="0" x2="120" y2="0" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.6" />
+  </g>
+</svg>

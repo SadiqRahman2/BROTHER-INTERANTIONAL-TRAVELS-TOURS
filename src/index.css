@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-burgundy: #4C0A14;
+    --brand-burgundy-dark: #32040B;
+    --brand-burgundy-light: #66101E;
+    --brand-yellow: #FFC709;
+    --brand-yellow-gold: #FFD200;
+    --brand-gold: #D4AF37;
+    --brand-gold-light: #F3E5AB;
+    --brand-charcoal: #18181B;
+  }
+
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #18181B;
+    background-color: #FDFBF7;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-serif-luxury {
+    font-family: 'Playfair Display', Georgia, serif;
+  }
+
+  .font-brand-display {
+    font-family: 'Cinzel', serif;
+  }
+
+  ::selection {
+    background-color: #4C0A14;
+    color: #FFC709;
+  }
+}
+
+/* Custom bespoke utilities for Brothers International Travel & Tours */
+.bg-brand-burgundy {
+  background-color: #4C0A14;
+}
+
+.bg-brand-burgundy-dark {
+  background-color: #32040B;
+}
+
+.bg-brand-burgundy-light {
+  background-color: #66101E;
+}
+
+.text-brand-yellow {
+  color: #FFC709;
+}
+
+.text-brand-gold {
+  color: #D4AF37;
+}
+
+.border-brand-gold {
+  border-color: #D4AF37;
+}
+
+.border-brand-burgundy {
+  border-color: #4C0A14;
+}
+
+/* Gold gradient shine effects for premium travel cards */
+.gold-gradient-border {
+  border-image: linear-gradient(135deg, #FFC709, #D4AF37, #FFFFFF, #D4AF37) 1;
+}
+
+.gold-text-glow {
+  text-shadow: 0 0 20px rgba(255, 199, 9, 0.4);
+}
